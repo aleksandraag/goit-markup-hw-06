@@ -603,12 +603,12 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <form class="modal-form">
+        
           <h3 class="modal-form-headline">
             Zostaw swoje dane w formularzu poniżej
           </h3>
-
-          <label for="user_name">Imię</label>
+<form class="modal-form">
+          <label class="form-label" for="user_name">Imię</label>
           <input
             class="modal-form-input"
             type="name"
@@ -619,7 +619,7 @@
             <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
           </svg>
 
-          <label for="user_phone">Telefon</label>
+          <label class="form-label for="user_phone">Telefon</label>
           <input
             class="modal-form-input"
             type="phone"
@@ -630,7 +630,7 @@
             <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
           </svg>
 
-          <label for="user_email">Email</label>
+          <label class="form-label for="user_email">Email</label>
           <input
             class="modal-form-input"
             type="email"
@@ -641,7 +641,7 @@
             <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
           </svg>
 
-          <label for="user_comment">Komentarz</label>
+          <label class="form-label for="user_comment">Komentarz</label>
           <input
             class="modal-form-comment"
             type="comment"
@@ -655,7 +655,7 @@
             <span>Politykę Prywatności.</span>
           </label>
 
-          <button type="submit">Submit</button>
+          <button class="checkbox-button" type="submit">Wyśij</button>
         </form>
         <button type="button" class="close-btn" data-modal-close>X</button>
       </div>
