@@ -833,7 +833,9 @@ color: var(--contactncontent-text-color);
   height: 138px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  padding: 12px 16px;
 }
+
 
 .icon-person {
   position: absolute;
@@ -859,6 +861,18 @@ color: var(--contactncontent-text-color);
   justify-content: center;
 }
 
+.icon-check {
+  overflow: hidden;
+  position: absolute;
+  top: 10%;
+  right: 97%;
+opacity: 0;
+}
+
+.icon-check:active {
+  opacity: 100;
+}
+
 .terms-checkbox > span {
   color: var(--button-backgroundnhover-color);
   text-decoration: underline; 
@@ -867,6 +881,7 @@ font-size: 14px;
 }
 
 .terms-checkbox {
+  position: relative;
   font-weight: 400;
 font-size: 14px;
 line-height: 1.5em;
