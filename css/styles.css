@@ -799,13 +799,7 @@ margin-top: 40px;
 margin-bottom: 12px;
 }
 
-.modal-form {
-  display: flex;
-  flex-direction: column;
-}
-
 .form-label {
-  align-items: flex-start;
   padding-left: 40px;
   margin-bottom: 4px;
   font-weight: 400;
@@ -813,8 +807,18 @@ font-size: 12px;
 line-height: 0.875em;
 letter-spacing: 0.01em;
 color: var(--contactncontent-text-color);
-
 }
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-input:focus-within {
+  border-color: var(--button-backgroundnhover-color);
+  fill: var(--button-backgroundnhover-color);
+}
+
 
 .modal-form-input {
   width: 448px;
@@ -824,6 +828,7 @@ color: var(--contactncontent-text-color);
   padding-left: 42px;
   margin-left: 40px;
   margin-bottom: 10px;
+  outline: none;
 }
 
 
@@ -843,6 +848,7 @@ color: var(--contactncontent-text-color);
   left: 55px;
   align-items: center;
   justify-content: center;
+  fill: var(--main-text-color);
 }
 
 .icon-phone-black {
@@ -866,12 +872,17 @@ color: var(--contactncontent-text-color);
   position: absolute;
   top: 10%;
   right: 97%;
-opacity: 0;
+  opacity: 0;
+
 }
 
-.icon-check:active {
-  opacity: 100;
+.terms-checkbox:focus-within .icon-check {
+  fill: var(--button-backgroundnhover-color);
+opacity: 100;
 }
+
+
+
 
 .terms-checkbox > span {
   color: var(--button-backgroundnhover-color);
