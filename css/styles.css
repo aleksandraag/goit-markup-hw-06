@@ -38,6 +38,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -52,7 +53,6 @@ body {
   flex-direction: row;
   align-items: center;
   height: 80px;
-  padding-left: 15px;
   padding-right: 27px;
   margin: auto;
 }
@@ -213,8 +213,6 @@ body {
 .list-lorem {
   list-style: none;
   display: flex;
-  padding-right: 15px;
-  padding-left: 15px;
   gap: 30px;
   padding-bottom: 0;
 }
@@ -244,8 +242,6 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
   gap: 30px;
 }
 
@@ -309,8 +305,6 @@ body {
   align-items: center;
   justify-content: space-evenly;
   gap: 30px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .team-item {
@@ -395,8 +389,6 @@ button:focus {
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
-  padding-right: 15px;
-  padding-left: 15px;
   margin: 0 auto;
 }
 
@@ -431,7 +423,6 @@ button:focus {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .card-item {
@@ -566,8 +557,6 @@ img {
   display: flex;
   gap: 30px;
   align-items: center;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .clients-link {
